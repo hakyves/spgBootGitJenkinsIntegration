@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class YvesController {
-	@GetMapping("/")
+	@GetMapping("/api")
 	public String getMessage() {
-		return "welcome to spgBootGitJenkinsIntegration";
+		return "welcome to spgBootAWSCodeDeploy";
 	}
 	@GetMapping("/aws")
 	public String getAWS() {
