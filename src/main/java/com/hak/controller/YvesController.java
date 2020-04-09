@@ -9,5 +9,9 @@ public class YvesController {
 	public String getMessage() {
 		return "welcome to spgBootGitJenkinsIntegration";
 	}
+	@GetMapping
+	public String getAWS() {
+		return "welcome to AWS";
+	}
 
 }
