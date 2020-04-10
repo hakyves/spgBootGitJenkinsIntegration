@@ -11,7 +11,7 @@ public class YvesController {
 	}
 	@GetMapping("/aws")
 	public String getAWS() {
-		return "welcome to AWS";
+		return "welcome to AWS1";
 	}
 
 }
